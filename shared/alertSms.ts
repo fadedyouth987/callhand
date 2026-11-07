@@ -1,5 +1,5 @@
 // The owner's "new job" text. Pure functions, unit-tested directly.
-// Ported from Jobrin's owner alert, where it was already tested in production code.
+// Ported from Jobrin's owner alert, where it was already unit-tested.
 import { formatAuPhone } from './phone';
 
 export type Urgency = 'emergency' | 'urgent' | 'routine';
