@@ -199,7 +199,7 @@ begin
   insert into public.businesses (name, created_by) values (v_name, v_user) returning id into v_business;
   insert into public.business_members (business_id, user_id, role) values (v_business, v_user, 'owner');
   insert into public.receptionist_settings (business_id, greeting)
-  values (v_business, left('Thanks for calling ' || v_name || '. How can I help you today?', 300));
+  values (v_business, left('Thanks for calling ' || v_name || '.', 300));
   return v_business;
 end $$;
 
