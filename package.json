@@ -27,7 +27,7 @@
     "tsx": "^4.21.0",
     "twilio": "6.1.0",
     "ws": "^8.21.3",
-    "zod": "^3.25.76"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.14",
